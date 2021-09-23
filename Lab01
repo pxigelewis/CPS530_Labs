@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8" />
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <title>CPS530 Lab 1 | Autobiographical Webpage</title>
+        <style>
+            html, body{
+                margin: 0;
+                padding: 0;
+                background-color: #ffe0fa;
+            }
+
+            nav{
+                float: center;
+                background-color: #ffe0fa;
+                text-align: center;
+            }
+
+            nav ul{
+                float: center;
+                margin: 1;
+                padding: 1;
+                list-style:none;
+                text-align: center;
+            }
+
+            nav li{
+                display: inline-block;
+                margin-left: 60px;
+                padding-top: 5px;
+                
+            }
+
+            header{
+                float: center;
+                width: 100%;
+                min-height: 15vh;
+                background-color: #ffe0fa;
+                background-size: cover;
+                
+            }
+    
+            .description{
+                color: #302b30;
+                padding: 5px 0px 0px 0px;
+                text-align: center;
+            }
+    
+            .description > h1{
+                margin: 2;
+            } 
+
+            section{
+                float: center;
+                display : block;
+                width : 100%;
+                height : 250px;;
+
+            }
+
+            article{
+                float: center;
+                width: 100%;
+                height: 100px;
+            }
+
+            aside{
+                float: center;
+                text-align: center;
+                padding-left: 0px;
+                display : block;
+                width : 100%;
+                height : 450px;
+                padding-top: 0px;
+                
+            }
+
+
+
+            figure{
+                float: center;
+                text-align: center;
+
+            }
+
+            figcaption{
+                float: center;
+                text-align: center;
+            }
+    
+            main{
+                padding: 5px;
+                background-color: #ffe0fa;
+            }
+
+
+    
+            footer{
+                width: 100%;
+                min-height: 7vh;
+                background-color: #ffe0fa;
+                padding-top: 40px;
+                text-align: center;
+            }
+
+
+            .github{
+                padding:30px;
+                width: 40px;
+                text-decoration : none;
+            }
+
+            .github:hover {
+                opacity: 0.7;
+            }
+
+            .github {
+                color: white;
+            }
+
+            .linkedin{
+                padding:30px;
+                width: 40px;
+                text-decoration : none;
+            }
+
+            .linkedin:hover {
+                opacity: 0.7;
+            }
+
+            .linkedin {
+                color: white;
+            }
+
+            .storygraph{
+                padding:30px;
+                width: 40px;
+                text-decoration : none;
+            }
+
+            .storygraph:hover {
+                opacity: 0.7;
+            }
+
+            .storygraph {
+                color: white;
+            }
+
+
+
+
+        </style>
+    </head>
+
+
+
+
+
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/paigeroselewis/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/pxigelewis" target="_blank">Github</a></li>
+                </ul>
+                </center>
+              </nav>
+            <div class="description">
+                <h1>Paige's Autobiographical Website</h1>
+                <h3>CPS530 Lab 1</h2>
+                <p><strong>Program of Study</strong> - Biophysics | <strong>Student Number</strong> - 500817958</p>
+            </div>
+        </header>
+
+
+        <p>
+            <center>Hi there! My name is Paige and I am a 5th year Ryerson student finishing up my computer science minor. Though this is not the first website I've built, this is the first website I've built outside of my TailwindCSS comfort zone, and I'm looking forward to seeing my skills grow throughout this course.</center>
+            <hr>
+        </p>
+
+
+        <main>
+
+            <style>
+                text-align: center;
+                .indent-1 {float: center;}
+                .indent-1 section {width: 50%; float: left;}
+            </style>
+            
+            <section class="indent-1">
+
+                <section>
+                    <h2>Courses</h2>
+                    <article>
+                        <h3>Relevant CS Courses</h3>
+                        <p>CPS109, CPS118, CPS209, CPS305, CPS393, CPS501, CPS530</p>
+                    </article>
+                    <article>
+                        <h3>Additional Relevant Courses</h3>
+                        <p>MTH110, MTH131, MTH231, MTH330, MTH380 PCS120, PCS130, PCS300, PCS401</p>
+                    </article>
+                </section>
+
+                <section>
+                    <h2>Work Experience</h2>
+
+                    <article>
+                        <h3>Machine Learning Intern</h3>
+                        <p>During my internship, I worked with AWS and alongside another intern to update the recommendation engine on the compnays website. I also wrote various coding challenges on topics including Data Science, Machine Learning, and Front and Back-End Development.</p>
+                    </article>
+                    <article>
+                        <h3>Data Analyst and Front-End Developer</h3>
+                        <p>Currently, I'm working as a data analyst and have recently taken on a front-end development role building the companys new website. I've been using TailwindCSS and TailwindUI to build the pages of the site and will soon be utalizing JS to get the site ready for launch.</p>
+                    </article>
+                </section>
+
+
+               
+
+                
+
+        </main>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <aside>
+
+            <h2>Personal Interests</h2>
+
+            <p>Outside of school and work, you can find me hanging out with friends or reading. I usually have at least one coding project on the go -- most recently I was working on a program that creates code generative NFT art! I also have two adorable kittens, pictured below, that take up lots of my time :)</p>
+
+            <figure>
+                <center><a href="https://lh3.googleusercontent.com/JBeGayaCCQaeoT-gxdAQ5_mZq1DALB_3bFeAuEA8rmWSvfLZnDbSe_YRj3m7i17MAY3OIAyVNlSHH36lEOXyoMlE6rr5TZwsuf3J8_2aCaSz04lbOYyQ_DThf17ge8jTNn6j___CUQ=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/JBeGayaCCQaeoT-gxdAQ5_mZq1DALB_3bFeAuEA8rmWSvfLZnDbSe_YRj3m7i17MAY3OIAyVNlSHH36lEOXyoMlE6rr5TZwsuf3J8_2aCaSz04lbOYyQ_DThf17ge8jTNn6j___CUQ=w600-h315-p-k" /> </a></center>
+                <figcaption>
+                    My two cats, Violet and Rosemary, hanging out together in their cat tree.
+                </figcaption>
+    
+            </figure>
+
+
+            <br>
+
+
+            <details>
+                <summary>Currently Reading</summary>
+                    <ul>
+                        <a href="https://www.goodreads.com/book/show/51648276-drive-your-plow-over-the-bones-of-the-dead" target="_blank">Drive Your Plow Over the Bones of the Dead - Olga Tokarczuk</a> <br>
+                        <br>
+                        <a href="https://www.goodreads.com/book/show/52855190-the-whole-singing-ocean?from_search=true&from_srp=true&qid=Bdczz5x3qI&rank=1" target="_blank">The Whole Singing Ocean - Jessica Moore</a> <br>
+                        <br>
+                        <a href="https://www.goodreads.com/book/show/52696537-if-i-had-your-face" target="_blank">If I Had Your Face - Frances Cha</a> <br>
+                        <br>
+                    </ul>
+
+        </aside>
+
+
+    </body>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer>
+        <a href="https://github.com/pxigelewis" target="_blank"><img class="github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+        <a href="https://www.linkedin.com/in/paigeroselewis/" target="_blank"><img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+        <a href="https://app.thestorygraph.com/profile/paigelewis" target="_blank"><img class="storygraph" src="https://app.thestorygraph.com/assets/logo-no-text-c4ee077e55eff96a040071bb24d583360e2b52ed96e293a0768c6ba2384bf82c.png"></a>
+        
+    </footer>
+
+
+
+</html>
